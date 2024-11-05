@@ -1,2 +1,2 @@
-LAB1 - CPM\n
+LAB1 - CPM
 LAB2 - PERT
