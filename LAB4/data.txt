@@ -1,0 +1,65 @@
+8
+0  1  0  20  0  0  0  0
+1  0  10  0  0  20  0  0
+0  10  0  0  20  0  0  1
+20  0  0  0  20  0  0  0
+0  0  20  20  0  0  0  0
+0  20  0  0  0  0  20  0
+0  0  0  0  0  20  0  20
+0  0  1  0  0  0  20  0
+
+  PrzepĹywy:
+
+          ->          ->          ->
+          11/20       11/20       11/20
+       +---------[3]---------[4]----------+
+       |                                  |
+       |    ->              <-            |     ->
+       |     1/1            10/10         |      1/1
+      [0]--------[1]---------------------[2]-----------[7]
+                  |                                     |
+                  |   ->           ->          ->       |
+                  |   11/20        11/20       11/20    |
+                  +----------[3]-----------[4]----------+
+
+
+
+Maksymalny przepĹyw:
+ 12
+
+Graf przepĹywĂłw:
+ 12 [0, 1, 0, 11, 0, 0, 0, 0]
+ 11 [0, 0, 0, 0, 0, 11, 0, 0]
+ 11 [0, 10, 0, 0, 0, 0, 0, 1]
+ 11 [0, 0, 0, 0, 11, 0, 0, 0]
+ 11 [0, 0, 11, 0, 0, 0, 0, 0]
+ 11 [0, 0, 0, 0, 0, 0, 11, 0]
+ 11 [0, 0, 0, 0, 0, 0, 0, 11]
+  0 [0, 0, 0, 0, 0, 0, 0, 0]
+
+ĹcieĹźki przepĹywĂłw:
+  1 [0, 1, 2, 7]
+ 11 [0, 3, 4, 2, 1, 5, 6, 7]
+
+
+Opis danych wejĹciowych:
+     Graf skierowany z dodatnimi wagami na krawÄdziach.
+     Pierwsza liczba N to liczba wierzchoĹkĂłw.
+     Kolejne N linii zawiera po N liczb.
+     Waga z wÄzĹa A do wÄzĹa B jest w wierszu A i kolumnie B
+     Waga Ĺuku oznacza maksymalny przepĹyw w danym Ĺuku
+
+Opis Maksymalny przepĹyw:
+     Jest to maksymalna suma przepĹywĂłw z pierwszego do ostatniego wÄzĹa.
+
+Opis Graf przepĹywĂłw:
+     Jest macierzÄ maksymalnych przepĹywĂłw w sieci.
+     Kolejne linie oznaczajÄ opis kolejnych wÄzĹĂłw.
+     Pierwsza liczba to caĹkowity przepĹyw wypĹywajÄcy z wÄzĹa.
+     NastÄpnie nastÄpuje lista przepĹywĂłw z danego wÄzĹa do pozostaĹych wÄzĹĂłw.
+
+Opis ĹcieĹźki przepĹywĂłw:
+     Jest to lista ĹcieĹźek przepĹywĂłw, od pierwszego do ostatniego wÄzĹa.
+     Kolejne linie oznaczajÄ opis kolejnych ĹcieĹźek przepĹywu.
+     Pierwsza liczba to przepĹyw w danej ĹcieĹźce.
+     NastÄpnie nastÄpuje lista wÄzĹĂłw na ĹcieĹźce.
