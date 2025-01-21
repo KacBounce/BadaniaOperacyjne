@@ -1,4 +1,5 @@
 LAB1 - CPM
 LAB2 - PERT
 LAB4 - MINPATH MAXFLOW
-LAB 5 - algorytmy do TSP, SA, TABOO SEARCH
+LAB 5 - algorytmy do TSP + SA
+LAB 6 - SA vs. TABOO SEARCH
